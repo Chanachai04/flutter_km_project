@@ -31,6 +31,9 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1 #ฟอนต์จาก fonts.google.com
+  font_awesome_flutter: ^10.8.0 #ไอคอนแปลกๆจาก fontawesome.com
+  introduction_screen: ^3.1.14
 
 dev_dependencies:
   flutter_test:
@@ -70,6 +73,13 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  fonts:
+    - family: Kanit
+      fonts:
+        - asset: assets/fonts/Kanit-Regular.ttf
+        - asset: assets/fonts/Kanit-Bold.ttf
+        - asset: assets/fonts/Kanit-Italic.ttf
+          style: italic
   # fonts:
   #   - family: Schyler
   #     fonts:
