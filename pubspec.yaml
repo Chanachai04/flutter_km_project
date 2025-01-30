@@ -34,6 +34,7 @@ dependencies:
   google_fonts: ^6.2.1 #ฟอนต์จาก fonts.google.com
   font_awesome_flutter: ^10.8.0 #ไอคอนแปลกๆจาก fontawesome.com
   introduction_screen: ^3.1.14
+  salomon_bottom_bar: ^3.3.2
 
 dev_dependencies:
   flutter_test:
